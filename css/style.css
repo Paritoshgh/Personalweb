@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+
+header{
+	background-image: url(../web.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+		background-color: #fff;
+	color: #000;
+}
+section
+		{
+			display: inline-block;
+			border: 10px solid #fff;
+			font-size: 10mm;
+			color: black;
+			position: absolute;
+			line-height: 10mm;
+			top: 50%;
+			left: 50%;
+	transform: translate(-50%,-50%);
+		}
+
+footer
+		{
+			background-color: black;
+			color:white;
+			clear: both;
+			text-align: center;
+			padding: 5px;
+			font-size: 0.75em;
+			font-style: italic;
+		}
+
+.logo img{
+	float: left;
+	width: 150px;
+	width: auto;
+}
+
+.logo1 img{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+.home{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-60%,-50%);
+}
+.home h2{
+	color: #000;
+	font-size: 70px;
+}
+
+.Picture{
+position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+	width: auto;
+;}
